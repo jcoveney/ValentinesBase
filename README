@@ -1,0 +1,5 @@
+This is a tool that I thought would be useful in the pursuit of tweets, and other endeavours germain to the life of a modern gentleman.
+
+The idea is that where Base64 encoding takes an arbitrary byte stream and encodes it 6 bits at a time using 64 characters likely to render on any platform, you can instead encode using more UTF8 characters (in this case, 14 bits worth) in order to make a more compact encoding. Since UTF8 is quite common (on Twitter, for example), this could be a fun win on platforms that support it.
+
+Please let me know if there are any issues
